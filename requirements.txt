@@ -55,3 +55,4 @@ swagger-parser==1.0.1 \
     --hash=sha256:8c0263e3128d3af9150c6fcd83d768967211f3bcb4da330fbe318fb44e38bdd2
 uWSGI==2.0.18 \
     --hash=sha256:4972ac538800fb2d421027f49b4a1869b66048839507ccf0aa2fda792d99f583
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
