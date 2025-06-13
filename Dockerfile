@@ -1,4 +1,4 @@
-FROM python:3.7.6
+FROM python:3.13.5
 RUN useradd -d /app -M -s /bin/sh -u 10001 -U app
 WORKDIR /app
 ENTRYPOINT ["/app/startup.sh"]
