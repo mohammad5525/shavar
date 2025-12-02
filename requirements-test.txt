@@ -19,3 +19,4 @@ WebTest==2.0.34 \
 WSGIProxy2==0.4.6 \
     --hash=sha256:6d94ff1b1142a5544571912a6745bdb654a854d1ee96a48f0656b1cb254ccb9f \
     --hash=sha256:cee2a64abc193cc96c7ff1208b709335e9a4d1316ce84b91501102166d814c9a
+werkzeug>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
